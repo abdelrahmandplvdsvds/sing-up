@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/sign.css">
+    <style>
+        *{
+    font-family: tahoma;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.sign{
+    background-color: rgb(10, 9, 9);
+    border-radius: 50px;
+    border: 4px white solid;
+    height: 526px;
+    width: 460px;
+    margin: auto;
+    margin-top: 30px;
+}
+input{
+    background-color: rgb(26, 26, 26);
+    border: none;
+    height: 40px;
+    width: 352px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-left: 40px;
+    display: block;
+    color: white;
+}
+input[placeholder]{
+    padding-left: 20px;
+}
+label{
+    padding-left: 40px;
+    color: white;
+}
+h1{
+    color: rgb(255, 255, 12);
+    text-align: center;
+    direction: ltr;
+    padding-left: -20px;
+    /* margin-left: -10px; */
+}
+button{
+    width: 350px;
+    height: 42px;
+    margin: 0px 53px;
+    background: yellow;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
+button:hover{
+    box-shadow: 0 0 20px white;
+}
+@media(max-width:470px){
+    .sign{
+    background-color: rgb(10, 9, 9);
+    border-radius: 50px;
+    border: 4px white solid;
+    height: 526px;
+    width: 430px;
+    margin: auto;
+    margin-top: 30px;
+}
+input{
+    background-color: rgb(26, 26, 26);
+    border: none;
+    height: 40px;
+    width: 325px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-left: 40px;
+    display: block;
+    color: white;
+}
+input[placeholder]{
+    padding-left: 20px;
+}
+label{
+    padding-left: 40px;
+    color: white;
+}
+h1{
+    color: rgb(255, 255, 12);
+    text-align: center;
+    direction: ltr;
+    padding-left: -20px;
+    /* margin-left: -10px; */
+}
+button{
+    width: 350px;
+    height: 42px;
+    margin: 0px 53px;
+    background: yellow;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+}
+button:hover{
+    box-shadow: 0 0 20px white;
+}
+}
+    </style>
+</head>
+<body>
+    <div class="sign">
+        <form action="">
+            <h1>CREATE NEW <br>ACCOUNT</h1>
+        
+        <!-- الاسم -->
+        <label for="name">Name</label>
+        <br>
+        <br>
+        <input type="text" placeholder="Enter your Name" id="name">
+        <!-- الايميل -->
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <br>
+        <input  type="email" placeholder="Enter your Email" id="email">
+        <!-- كلمة السر -->
+        <br>
+        <label for="password">passsword</label>
+        <br>
+        <br>
+        <input type="password" placeholder="Enter your password">
+        <br>
+        <br>
+        <!-- زر ال sign up -->
+        <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
